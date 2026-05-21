@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body{
+    background-image: linear-gradient(to bottom right,#2bff00,#0b3500);
+    width: 100%;
+    height: 100vh;
+}
+h1{
+    width:100px ;
+    height: 100px;
+    background-image: url(../assets/img/pawprint.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-indent: -9999999px;
+    margin: 20px;
+}
+.mainanimal{
+    width: 600px;
+    margin: 50px auto;
+}
+.animal{
+    
+    padding: 50px;
+    border-radius: 30px;
+    border: 4px solid #ffffff;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.C{
+    background-image: url(../assets/img/cow1.jpg);
+}
+.D{
+    background-image: url(../assets/img/dog1.jpg);
+}
+.J{
+    background-image: url(../assets/img/donke.jpg);
+}
+.L{
+    background-image: url(../assets/img/lion1.jpg);
+}
