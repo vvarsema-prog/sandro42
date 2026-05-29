@@ -18,7 +18,7 @@ document.addEventListener('keydown',function (e) {
         let sound = new Audio(soundsrc);
             sound.play();
 })
-// davamatebt || ert if elsshi
+// davamatebt || ert if elssh
 
 function playsound(leter){
     let soundsrc
